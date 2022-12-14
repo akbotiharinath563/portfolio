@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="portfolio.css"> -->
+    <style>
+    body{
+        background-color:black;
+        color:white;
+    }
+    .first{
+        width:40%;
+        height:100%;
+        position:fixed;
+        left:0;
+        background-color:black;
+        color:white;
+        box-sizing:border-box;
+    }
+    .second{
+        width:60%;
+        position:absolute;
+        right:0;
+        background-color:rgb(36, 35, 35);
+        box-sizing:border-box;
+        padding-left:20px;
+    }
+    .profile_image{
+        border-radius:100%;
+        height:200px;
+        width:180px !important;
+        box-sizing:border-box;
+        border:8px solid rgb(123, 217, 123);
+    }
+    .ul-profile-heading{
+        list-style:none;
+        padding:5px;
+        text-align:center;
+    }
+    .li-profile-heading{
+        width:100%;
+        border:1px solid rgb(195, 182, 182);
+        border-radius:30px;
+        margin-left:0px;
+        margin-top:5px;
+        padding:5px;
+    }
+    .li-profile-heading:hover{
+        background-image:linear-gradient(rgb(238, 238, 124),rgb(123, 223, 123));
+        color:black;
+    }
+    .second_part_container{
+        padding:10px;
+    }
+    .career_objective,.education_div,.skills-heading,.projects_heading,.personal_information_heading,.intrests_heading{
+        padding-left:30px;
+    }
+    .career_objective_p,.edu,.project_one,.project_two{
+        padding-left:50px;
+        padding-top:30px;
+    }
+    td{
+        padding-right:10px;
+        padding-top:10px;
+    }
+    .li-skills,.li_intrests{
+        list-style:none;
+        padding-left:50px;
+        padding-top:20px;
+    }
+    .icons{
+        padding-right:10px;
+    }
+    .project_one_description,.project_two_description{
+        padding-left:70px;
+    }
+    @media (max-width:600px){
+        .first{
+            width:100%;
+            position:relative;
+        }
+        .second{
+            width:100%;
+            position:relative;
+        }
+    }
+    div ul a{
+        color:white;
+        text-decoration:none;
+    }
+</style>
+</head>
+<body>
+    <div class="full">
+        <div class="first container text-center">
+            <img class="profile_image img-fluid mt-3" src="profile.jpg" alt="profile">
+            <h3 class="mt-3">HARINATH AKBOTI</h3>
+            <h6>8096489732</h6>
+            <h6 class="mb-5">harinath97011@gmail.com</h6>
+            <div class="col-12">
+                <ul class="mt-2 ul-profile-heading">
+                    <a href="#co"><li class="pt-3 li-profile-heading">Career Objective</li></a>
+                    <a href="#e"><li class="pt-3 li-profile-heading">Education</li></a>
+                    <a href="#s"><li class="pt-3 li-profile-heading">Skills</li></a>
+                    <a href="#p"><li class="pt-3 li-profile-heading">Project</li></a>
+                    <a href="#pi"><li class="pt-3 li-profile-heading">Personal Information</li></a>
+                    <a href="#i"><li class="pt-3 li-profile-heading">Intrests</li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="second">
+            <div class="container second_part_container">
+                <div class="career_objective_div col-12">
+                    <h1 class="career_objective mt-5" id="co">Career Objective</h1>
+                    <p class="career_objective_p">To secure a challenging position in a reputable organization to expand my learnings, knowledge, and skills.Seeking an entry-level position to begin my career in a high-level professional environment.To make use of my interpersonal skills to achieve goals of a company that focuses on customer satisfaction and customer experience.</p>
+                </div>
+                <div class="education_div">
+                    <h1 class="education_heading" id="e">Education</h1>
+                    <div class="row">
+                        <div class="col-12 col-md-6 edu mt-5">
+                            <table class="text-ceter">
+                                <tr>
+                                    <td colspan="2" style="text-align:center;">Master Of Computer Applications</td>
+                                </tr>
+                                <tr>
+                                    <td>University</td>
+                                    <td>Yogi Vemana University</td>
+                                </tr>
+                                <tr>
+                                    <td> Year Of Passing</td>
+                                    <td>2022</td>
+                                </tr>
+                                <tr>
+                                    <td>CGPA</td>
+                                    <td>8.4</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-12 col-md-6 edu mt-5">
+                            <table class="text-ceter">
+                                <tr>
+                                    <td colspan="2" style="text-align:center;">B.Sc(Computer Science)</td>
+                                </tr>
+                                <tr>
+                                    <td>College</td>
+                                    <td>SV arts college</td>
+                                </tr>
+                                <tr>
+                                    <td>Year Of Passing</td>
+                                    <td>2017</td>
+                                </tr>
+                                <tr>
+                                    <td>CGPA</td>
+                                    <td>7.6</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-12 col-md-6 mt-5 edu">
+                            <table class="text-ceter">
+                                <tr>
+                                    <td colspan="2" style="text-align:center;">Intermediate</td>
+                                </tr>
+                                <tr>
+                                    <td>College</td>
+                                    <td>K.V.R memorial junior college</td>
+                                </tr>
+                                <tr>
+                                    <td>Year Of Passing</td>
+                                    <td>2015</td>
+                                </tr>
+                                <tr>
+                                    <td>CGPA</td>
+                                    <td>9.62</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-12 col-md-6 mt-5 edu">
+                            <table class="text-ceter">
+                                <tr>
+                                    <td colspan="2" style="text-align:center;">SSC</td>
+                                </tr>
+                                <tr>
+                                    <td>School</td>
+                                    <td>X P High schools</td>
+                                </tr>
+                                <tr>
+                                    <td>Year Of Passing</td>
+                                    <td>2015</td>
+                                </tr>
+                                <tr>
+                                    <td>CGPA</td>
+                                    <td>9.2</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills col-12">
+                <h1 class="skills-heading mt-5" id="s">Skills</h1>
+                <ul class="ul-skills">
+                    <li class="li-skills"><i class="fa-solid fa-arrow-right icons"></i>Java</li>
+                    <li class="li-skills"><i class="fa-solid fa-arrow-right icons"></i>MySQL</li>
+                    <li class="li-skills"><i class="fa-solid fa-arrow-right icons"></i>HTML/CSS</li>
+                    <li class="li-skills"><i class="fa-solid fa-arrow-right icons"></i>Bootstrap</li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="projects_heading" id="p">Projects</h1>
+                    <h3 class="project_one">Food Much</h3>
+                    <p class="project_one_description mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas mollitia unde tempora dignissimos distinctio consequatur iure doloribus eum ratione earum, necessitatibus facilis aspernatur asperiores esse architecto assumenda sequi pariatur fugiat inventore et deserunt molestiae in quidem labore? Omnis, ducimus ea officiis corporis, repellat autem impedit mollitia, eaque delectus sit ad obcaecati sint. Ratione quaerat, quis nam natus laboriosam excepturi repudiandae? Fugit amet id eligendi modi nulla esse quas doloribus itaque consequuntur placeat repellendus voluptatum laborum aliquid, est tenetur in, perspiciatis dolores! Mollitia accusamus molestias, sint, provident molestiae minima repellendus nulla iste aperiam beatae enim, fuga rem soluta laudantium deserunt. Modi!</p>
+                    <h3 class="project_two">Portfolio</h3>
+                    <p class="project_two_description mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, quod quos praesentium esse asperiores nobis, omnis eligendi earum velit repellendus at et. Quia nesciunt tempore cupiditate eum iste vitae ipsa consectetur eos laborum aut voluptas, ipsam itaque quidem perferendis, soluta nobis harum cumque saepe sit! Iure aliquam deserunt sint! Suscipit corporis voluptate aspernatur illo quo. Nobis doloremque natus inventore cum maxime. Quas, explicabo in. Recusandae sunt similique possimus voluptatum repellendus corrupti, nihil explicabo quae dolore atque repellat. Quis veniam deserunt voluptates ea earum, expedita dicta facere reiciendis fugiat provident dolorum possimus inventore laudantium cupiditate in culpa iste, quisquam ut quo.</p>
+                </div>
+            </div>
+            <div class="personal_information_div row">
+                <h1 class="personal_information_heading text-underline" id="pi">Personal Information</h1>
+                <div class="col-12 d-flex justify-content-center pb-5">
+                    <table class="table-responsive">
+                        <tr>
+                            <td>Name</td>
+                            <td>HARINATH AKBOTI</td>
+                        </tr>
+                        <tr>
+                            <td>Father Name</td>
+                            <td>AKBOTI SIVA KUMAR</td>
+                        </tr>
+                        <tr>
+                            <td>Mother Name</td>
+                            <td>AKBOTI SYAMALA</td>
+                        </tr>
+                        <tr>
+                            <td>Date Of Birth</td>
+                            <td>15-06-2000</td>
+                        </tr>
+                        <tr>
+                            <td>Nationality</td>
+                            <td>Indian</td>
+                        </tr>
+                        <tr>
+                            <td>Known Language</td>
+                            <td>Telugu , English</td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td>kodumur,kurnool,AP</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="Intrests">
+                 <div class="col-12">
+                    <h1 class="intrests_heading" id="i">Intrests</h1>
+                    <ul>
+                        <li class="li_intrests">Learning New IT skills</li>
+                        <li class="li_intrests">Listening Music</li>
+                        <li class="li_intrests pb-3">Playing Games</li>
+                    </ul>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
